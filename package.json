@@ -1,7 +1,6 @@
 {
   "name": "express-starter",
   "version": "1.0.0",
-  "description": "A starter pack for building a Express web application with TypeScript, including pre-configured ESLint, Prettier, and Nodemon.",
   "main": "dist/server.js",
   "scripts": {
     "build": "tsc",
@@ -10,21 +9,8 @@
     "lint": "eslint . --ext .ts",
     "format": "prettier --write ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thezathe/express-starter.git"
-  },
-  "keywords": [
-    "fastify",
-    "typescript",
-    "postgres"
-  ],
   "author": "Uchkun Rakhimov <uchkunrakhimov@icloud.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/thezathe/express-starter/issues"
-  },
-  "homepage": "https://github.com/thezathe/express-starter#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2"
